@@ -343,6 +343,9 @@ hr {
     font-size: 20px;
     height: 66px;
 }
+.product__about__delivery__button a{
+    color: #fff;
+}
 .product__about__delivery {
     display: flex;
     flex-direction: column;

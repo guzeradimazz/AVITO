@@ -1,0 +1,126 @@
+/* header */
+.header {
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.header__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.header__items__icon {
+    height: 40px;
+    width: 120px;
+}
+.header__items__user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header__items__user__icon {
+    margin-right: 10px;
+}
+.header__items__user__name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #c4c4c4;
+}
+/* order */
+.order {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.order__h {
+    padding-bottom: 17px;
+    line-height: 1.375;
+    font-size: 32px;
+    font-weight: 600;
+}
+.order__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.order__block__variants {
+    display: flex;
+    flex-direction: column;
+}
+.order__block__variants__h {
+    line-height: 1.375;
+    font-size: 20px;
+    font-weight: 600;
+}
+.order__block__variants__block {
+    display: flex;
+    flex-direction: row;
+}
+.order__block__variants__block1 {
+    border: 2px solid #1fa9ff;
+    border-radius: 5px;
+    max-width: 200px;
+    min-height: 100px;
+    padding: 12px;
+    margin-right: 2%;
+}
+.order__block__variants__block2 {
+    color: #c4c4c4;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    max-width: 200px;
+    min-height: 100px;
+    padding: 12px;
+}
+.order__block__desktop {
+    min-width: 300px;
+
+    border: none;
+    background-color: #f0efef;
+    border-radius: 5px;
+}
+.order__block__desktop__h {
+    padding-left: 13px;padding-right: 13px;
+    line-height: 1.375;
+    font-size: 20px;
+    font-weight: 600;
+}
+.order__block__desktop__item {
+    align-items: center;
+    padding-left: 13px;padding-right: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blue {
+    color: rgb(0, 170, 255);
+}
+.order__block__desktop__item__p {
+    font-weight: 600;
+    line-height: 1.375;
+    margin: 0;
+}
+.order__block__desktop__info {
+    color: #c4c4c4;
+    margin: 0;
+    padding-left: 13px;padding-right: 13px;
+}
+.order__block__desktop__price {
+    padding-left: 13px;padding-right: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.order__block__desktop__price__text {
+}
+.order__block__desktop__price__price {
+}
+.order__block__variants__text{
+    line-height: 1.375;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
