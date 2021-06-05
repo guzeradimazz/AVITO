@@ -325,7 +325,7 @@ hr {
 .product__about {
     display: flex;
     flex-direction: column;
-    min-width: 320px;
+    width: 320px;
     margin-left: 2%;
 }
 .product__about__price {
@@ -370,4 +370,68 @@ hr {
     margin-top: 25px;
     font-size: 20px;
     height: 66px;
+}
+.product__about__rating {
+    margin-top: 20px;
+}
+.product__about__rating__h {
+    color: #1fa9ff;
+    font-size: 18px;
+}
+.product__about__rating__star {
+    margin-top: 5px;
+    align-items: center;
+}
+.product__about__rating__stars {
+    width: 15px;   
+}
+.product__about__rating__p {
+    margin-top: 20px;
+}
+.product__about__rating__button{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.product__about__others {
+    padding: 15px;
+    border: 1px solid #c4c4c4;
+}
+.product__about__others__h {
+    color: #1fa9ff;
+    font-size: 16px;
+}
+.product__about__others__t {
+    margin-top: 10px;
+}
+.product__about__others__items {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.product__about__others__items__item {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.product__about__others__items__item__icon {
+    width: 50%;
+    height: 100px;
+}
+.product__about__others__items__item__text {
+    display: flex;
+    padding-left: 5px;
+    flex-direction: column;
+}
+.product__about__others__items__item__text__h {
+    font-size: 13px;
+}
+.product__about__others__items__item__text__p {
+    font-size: 13px;
+    padding-top: 5px;
 }
