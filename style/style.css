@@ -24,6 +24,9 @@
     transition: .3 ease;
     color: #ff6163;
 }
+.viewshop__header__ul__item:hover{
+    color: #ff6163;
+}
 .header__navigation {
     margin-right: 50px;
     display: flex;
@@ -32,6 +35,7 @@
     align-items: center;
 }
 .header__navigation__favorite {
+    width: 20px;
     color: #c4c4c4;
 }
 .header__navigation__authorization {
@@ -57,7 +61,6 @@
     height: 30px;
     border-radius: 3px;
 }
-
 /* nav */
 .nav {
     display: flex;
@@ -69,7 +72,7 @@
 .nav__logo {
 }
 .nav__menu {
-    width: 30%;
+    width: 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -77,6 +80,11 @@
 .nav__menu__item {
     font-size: 14px;
     color: black;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+.nav__menu__item:hover{
+    color: #ff6163;
 }
 /* search */
 .search {
@@ -223,8 +231,11 @@
     flex-direction: row;
     color: #c4c4c4;
 }
+.viewshop__header__ul a{
+    color: #c4c4c4;
+}
 .viewshop__body {
-    height: 150px;
+    height: 100px;
     position: relative;
     display: flex;
     -webkit-box-align: center;
@@ -237,7 +248,7 @@
     padding-left: 150px;
     z-index: 1;
     margin: auto;
-    font-size: 45px;
+    font-size: 30px;
     text-align: center;
 }
 .viewshop__body__text {
@@ -274,6 +285,10 @@
     margin-top: 10px;
 }
 .product__main__favorites__add {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     font-size: 14px;
     border: 1px solid #c4c4c4;
     background-color: #ffffff;
@@ -282,6 +297,10 @@
     border-radius: 5px;
 }
 .product__main__favorites__text {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     font-size: 14px;
     border: 1px solid #c4c4c4;
     background-color: #ffffff;
@@ -332,7 +351,14 @@ hr {
     font-size: 32px;
 }
 .product__about__credit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 15px;
+}
+.product__about__credit__tinkoff{
+    width: 40px;
+    height: 40px;
 }
 .product__about__delivery__button {
     color: rgb(255, 255, 255);
@@ -355,6 +381,10 @@ hr {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+}
+.product__about__delivery__item img{
+    width: 15px;
+    margin-right: 5px;
 }
 .product__about__showphone {
     color: rgb(255, 255, 255);

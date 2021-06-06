@@ -25,9 +25,10 @@ footer, header, hgroup, menu, nav, section {
 html {
 	height: 100%;
 	overflow-x: hidden;
+	font-family: 'PT Sans', sans-serif;
 }
 body {
-	font-family: inherit;
+	font-family: 'PT Sans', sans-serif;
 	line-height: 1;
 }
 button{
