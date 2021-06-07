@@ -674,7 +674,7 @@ hr {
         justify-content: center;
     }
     .product__mobile__img img{
-        width: 65%;
+        width: 50%;
     }
     .product__mobile__info {
         display: flex;
@@ -822,7 +822,6 @@ hr {
         display: flex;
         flex-direction: column;
     }
-    
     .ask__mobile__block {
         display: flex;
         flex-direction: column;
@@ -880,11 +879,74 @@ hr {
         border-radius: 4px;
         width: 40px;
     }
+    .footer p{
+        margin: auto;
+        text-align: center;
+        padding: 5px 20px 5px 20px;
+    }
+    .footer__list {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
     .other__mobile {
         display: flex;
     }
-    .footer__mobile {
-        display: flex;
+    .others {
+        margin: auto;
+    }
+    .others__h {
+    }
+    .others__line {
+    }
+    /* .others__line__item {
+        border-radius: 5px;
+        border: 1px solid #c4c4c4;
+    } */
+    .others__line__item img{
+        width: 180px;
+    }
+    .others__line__item__head img{
+        width: 20px;
+    }
+    .hidden2{
+        display: none;
+    }
+    .bar{
+        position: fixed;
+        bottom: 10px;
+        z-index: 10;
+        background-color: #e9e9e9;
+        align-items: center;
+        width: 95%;
+        left: 2%;
+        margin: auto;
+        border-radius: 5px;
+    }
+    .product__mobile__info__buttons1_bar {
+        align-items: center;
+        color: rgb(255, 255, 255);
+        background-color: #89cf1f;
+        border: none;
+        transition: .7s ease;
+        font-size: 15px;
+        margin: 10px 0 10px 0;
+        height: 40px;
+    }
+    .product__mobile__info__buttons2_bar {
+        margin: 10px 0 10px 0;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        background-color: #1fa9ff;
+        border: none;
+        transition: .7s ease;
+        font-size: 15px;
+        height: 40px;
+    }
+    .hidden3{
+        display: none;
     }
     /* .header__menu {
         display: none;
