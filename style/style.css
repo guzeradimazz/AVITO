@@ -491,9 +491,163 @@ hr {
     font-size: 13px;
     padding-top: 5px;
 }
-
-@media screen and (max-width: 414px) {
-    .header__menu {
+.header__mobile {
+    display: none;
+}
+.product__mobile {
+    display: none;
+}
+.desc__mobile {
+    display: none;
+}
+.ask__mobile {
+    display: none;
+}
+.other__mobile {
+    display: none;
+}
+.footer__mobile {
+    display: none;
+}
+@media (max-width: 414px) {
+    .header{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .viewshop{
+        display: none;
+    }
+    .product{
+        display: none;
+    }
+    .header__mobile {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #fff;
+        width: 100%;
+        height: 38px;
+        align-items: center;
+        position: fixed;
+        -webkit-box-shadow: 0px 3px 9px 1px rgba(107, 107, 107, 0.2); 
+        -moz-box-shadow: 0px 3px 9px 1px rgba(107, 107, 107, 0.2); 
+        box-shadow: 0px 3px 9px 1px rgba(107, 107, 107, 0.2);
+    }
+    .header__mobile__link{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header__mobile__link img{
+        width: 20px;
+    }
+    .product__mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .product__mobile__img{
+        padding-top: 50px;
+        background-color: #f1f1f1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .product__mobile__img img{
+        width: 65%;
+    }
+    .product__mobile__info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .product__mobile__info__h {
+        font-size: 16px;
+        margin: 0 10px 10px 10px;
+    }
+    .product__mobile__info__price {
+        font-weight: bold;
+        margin: 10px;
+    }
+    .product__mobile__info__buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .product__mobile__info__buttons button{
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 43%;
+    }
+    .product__mobile__info__buttons img{
+        padding-right: 10px;
+    }
+    .product__mobile__info__buttons1 {
+        align-items: center;
+        color: rgb(255, 255, 255);
+        background-color: #89cf1f;
+        border: none;
+        transition: .7s ease;
+        margin-top: 25px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .product__mobile__info__buttons1:hover{
+        transition: .7s ease;
+        background-color: #9add34;
+    }
+    .product__mobile__info__buttons2 {
+        align-items: center;
+        color: rgb(255, 255, 255);
+        background-color: #1fa9ff;
+        border: none;
+        transition: .7s ease;
+        margin-top: 25px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .product__mobile__info__buttons2:hover{
+        transition: .7s ease;
+        background-color: #1a9bdb;
+    }
+    .product__mobile__info__text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+        align-items: center;
+        color: #c4c4c4;
+    }
+    .product__mobile__info__text span{
+        background-color: #89cf1f;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .product__mobile__info__text__h {
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    .desc__mobile {
+        display: flex;
+    }
+    .ask__mobile {
+        display: flex;
+    }
+    .other__mobile {
+        display: flex;
+    }
+    .footer__mobile {
+        display: flex;
+    }
+    /* .header__menu {
         display: none;
     }
     .header__menu__item {
@@ -574,8 +728,8 @@ hr {
     .product__main__favorites{
         font-size: 14px;
         margin-left: 3%;
-    }
-    .product__main__icon{
+    }*/
+    /* .product__main__icon{
         width: 100vw;
     }
     .product__main__description{
@@ -584,5 +738,5 @@ hr {
     .product__about{
         margin: auto;
         justify-content: center;
-    }
+    }  */
 }
