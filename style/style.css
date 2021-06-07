@@ -635,11 +635,138 @@ hr {
         font-weight: bold;
         padding-right: 5px;
     }
+    .product__mobile__info__delivery img{
+        padding-right: 10px;
+    }
+    .product__mobile__info__delivery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+        color: rgb(255, 255, 255);
+        background-color: #1fa9ff;
+        border: none;
+        border-radius: 5px;
+        width: 93%;
+        transition: .7s ease;
+        margin-top: 25px;
+        font-size: 15px;
+        height: 40px;
+    }
+    .product__mobile__info__delivery:hover{
+        transition: .7s ease;
+        background-color: #1a9bdb;
+    }
+    .product__mobile__info__about { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        color: #1fa9ff;
+        margin: 20px 0 20px 0;
+    }
+    .product__mobile__info__place {
+        margin-left: 3%;
+        line-height: 20px;
+    }
+    .hidden{
+        display: none;
+    }
     .desc__mobile {
         display: flex;
+        flex-direction: column;
+        margin: 30px 3% 0 3%;
+    }
+    .desc__mobile__h {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .desc__mobile__p {
+        padding: 10px 0 10px 0;
+    }
+    .desc__mobile__h6 {
+        font-weight: bold;
+    }
+    .desc__table {
+        display: flex;
+        flex-direction: column;
+    }
+    .desc__table__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+    .desc__table__item__left {
+        color: #c4c4c4;
     }
     .ask__mobile {
+        margin: 20px 3% 20px 3%;
         display: flex;
+        flex-direction: column;
+    }
+    .question{
+        border: none;
+        border-radius: 20px;
+        height: 40px;
+        font-size: 13px;
+        padding: 0 20px 0 20px;
+        margin-bottom: 10px;
+        color: #1a9bdb;
+        background-color: #b4e4fc;
+    }
+    .ask__mobile__block {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 3% 20px 3%;
+        background-color: #e0e0e0;
+        border-radius: 7px;
+        padding: 15px;
+    }
+    .ask__mobile__block__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .ask__mobile__block__items__rate {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        display: flex;
+    }
+    .ask__mobile__block__items__rate img{
+        width: 15px;
+    }
+    .shopping__bag{
+        background-color: #cccccc;
+        border-radius: 20px;
+        width: 60px;
+        height: 60px;
+    }
+    .rate {
+        align-items: center;
+    }
+    .ask__mobile__social{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+    }
+    .ask__mobile__subscribe{
+        font-size: 13px;
+        background-color: #e0e0e0;
+        height: 40px;
+        width: 93%;
+        border: none;
+        border-radius: 5px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .ask__mobile__social img{
+        border-radius: 4px;
+        width: 40px;
     }
     .other__mobile {
         display: flex;
