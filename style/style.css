@@ -663,6 +663,7 @@ hr {
         width: 20px;
     }
     .product__mobile {
+
         display: flex;
         flex-direction: column;
     }
@@ -674,7 +675,7 @@ hr {
         justify-content: center;
     }
     .product__mobile__img img{
-        width: 50%;
+        width: 40%;
     }
     .product__mobile__info {
         display: flex;
