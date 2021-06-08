@@ -8,9 +8,14 @@ $(document).ready(function() {
 			if ($(document).scrollTop() + windowHeight >= height) {
 				self.removeClass('hidden3')
 			}
-            // else{
-            //     $('.bar').addClass('hidden3');
-            // }
+            else{
+            }
 		});
 	});
 });
+$(window).scroll(function(){
+	if  ($(window).scrollTop() <= 500){
+		
+		$('.bar').addClass('hidden3');
+	}
+})
